@@ -5,30 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e4cf1be-e163-4796-88d0-52906b152be5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/FileDataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/tag.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/todo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/TodoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/TodoForm_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/TodoList_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/TodoView_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/maximumcactus/todo/splash.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/maximumcactus/todo/todo-form.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/maximumcactus/todo/todo-list.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/github/maximumcactus/todo/todo-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/signature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/splash-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testingaaa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/maximumcactus/todo/Classes/FileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/maximumcactus/todo/Classes/FileHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/maximumcactus/todo/Classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/maximumcactus/todo/Classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/maximumcactus/todo/TodoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/maximumcactus/todo/TodoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Todo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Todo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/Classes/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/maximumcactus/todo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/github/maximumcactus/todo/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +81,7 @@
       <recent name="C:\Users\yishen\Desktop\Coding\_Projects\Todo\Todo\src\main\resources\com\github\maximumcactus\todo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.TodoApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.maximumcactus.todo.HelloApplication" />
       <module name="Todo.main" />
