@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootParent" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.maximumcactus.todo.TodoList_Controller">
+    <children>
+        <BorderPane layoutX="134.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <left>
+                  <VBox prefHeight="400.0" prefWidth="186.0" style="-fx-background-color: #ccffcc;">
+                      <children>
+                          <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="180.0">
+                              <children>
+                                  <Label text="T O D O">
+                                      <font>
+                                          <Font size="24.0" />
+                                      </font>
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                              </children>
+                              <VBox.margin>
+                                  <Insets />
+                              </VBox.margin>
+                              <padding>
+                                  <Insets left="20.0" />
+                              </padding>
+                          </HBox>
+                          <HBox alignment="CENTER">
+                              <children>
+                                  <TextField fx:id="txtSearch" prefHeight="25.0" prefWidth="137.0" promptText="Search...">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                                  <Button fx:id="btnSearch" alignment="CENTER" mnemonicParsing="false" onAction="#onBtnSearchClick" translateY="-1.0">
+                                      <graphic>
+                                          <ImageView fitHeight="11.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                              <image>
+                                                  <Image url="@../../../../img/search-solid.png" />
+                                              </image>
+                                          </ImageView>
+                                      </graphic>
+                                      <HBox.margin>
+                                          <Insets right="10.0" />
+                                      </HBox.margin>
+                                  </Button>
+                              </children>
+                              <VBox.margin>
+                                  <Insets top="20.0" />
+                              </VBox.margin>
+                          </HBox>
+                          <Accordion>
+                              <panes>
+                                  <TitledPane text="All Tags">
+                                      <content>
+                              <ScrollPane hbarPolicy="NEVER" minHeight="75.0" pannable="true">
+                                 <content>
+                                                <AnchorPane prefWidth="200.0">
+                                                    <children>
+                                                        <VBox fx:id="vbAllTag" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                    </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                       </padding>
+                                                </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                                      </content>
+                                  </TitledPane>
+                                  <TitledPane text="Finish Date">
+                                      <content>
+                              <ScrollPane hbarPolicy="NEVER" minHeight="75.0" pannable="true">
+                                 <content>
+                                                <AnchorPane minWidth="0.0" prefWidth="200.0">
+                                                    <children>
+                                                        <VBox fx:id="vbFinishDate" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                    </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                       </padding>
+                                                </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                                      </content>
+                                  </TitledPane>
+                              </panes>
+                              <VBox.margin>
+                                  <Insets top="30.0" />
+                              </VBox.margin>
+                     <padding>
+                        <Insets bottom="20.0" />
+                     </padding>
+                          </Accordion>
+                          <VBox prefHeight="74.0" prefWidth="180.0">
+                              <VBox.margin>
+                                  <Insets top="10.0" />
+                              </VBox.margin>
+                              <children>
+                                  <HBox prefHeight="22.0" prefWidth="265.0">
+                                      <children>
+                                          <Label text="Sort By" />
+                                      </children>
+                                      <padding>
+                                          <Insets left="20.0" />
+                                      </padding>
+                                  </HBox>
+                                  <ButtonBar buttonMinWidth="0.0" prefHeight="40.0" prefWidth="200.0">
+                                      <buttons>
+                                          <Button fx:id="btnSortId" mnemonicParsing="false" onAction="#onBtnSortIdClick" prefHeight="25.0">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../img/id-badge-solid.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                                          <Button fx:id="btnSortTitle" mnemonicParsing="false" onAction="#onBtnSortTitleClick">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../img/font-solid.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btnSortFinishDate" layoutX="165.0" layoutY="18.0" mnemonicParsing="false" onAction="#onBtnSortFinishDateClick">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../img/calendar-alt-solid.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btnSortHasDone" layoutX="165.0" layoutY="18.0" mnemonicParsing="false" onAction="#onBtnSortHasDoneClick">
+                                 <graphic>
+                                    <ImageView fitHeight="15.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../img/check-solid.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                                      </buttons>
+                                      <VBox.margin>
+                                          <Insets />
+                                      </VBox.margin>
+                           <padding>
+                              <Insets right="20.0" />
+                           </padding>
+                                  </ButtonBar>
+                              </children>
+                          </VBox>
+                          <HBox alignment="CENTER">
+                              <children>
+                                  <Button fx:id="btnAddTodo" mnemonicParsing="false" onAction="#onBtnAddTodoClick" prefHeight="25.0" prefWidth="130.0" text="+ Add New Todo">
+                           <HBox.margin>
+                              <Insets bottom="30.0" />
+                           </HBox.margin>
+                        </Button>
+                              </children>
+                              <VBox.margin>
+                                  <Insets bottom="30.0" top="30.0" />
+                              </VBox.margin>
+                          </HBox>
+                      </children>
+                  </VBox>
+            </left>
+            <center>
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" pannable="true" vbarPolicy="ALWAYS" BorderPane.alignment="CENTER">
+               <content>
+                      <TilePane fx:id="tpList" hgap="50.0" prefHeight="400.0" prefWidth="400.0" vgap="50.0">
+                          <padding>
+                              <Insets bottom="10.0" left="30.0" right="10.0" top="30.0" />
+                          </padding>
+                      </TilePane>
+               </content>
+            </ScrollPane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
